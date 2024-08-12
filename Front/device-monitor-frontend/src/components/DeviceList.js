@@ -57,13 +57,16 @@ const DeviceList = () => {
    * 
    * @param {number} deviceId - ID do dispositivo a ser excluído.
    */
-  const handleDelete = (deviceId) => {
+   const handleDelete = (deviceId) => {
     axios.delete(`http://localhost:8080/devices/${deviceId}`)
       .then(() => {
         setDevices(devices.filter(device => device.id !== deviceId));
       })
-      .catch(error => console.error('Erro ao excluir dispositivo:', error));
+      .catch(error => {
+        console.error('Erro ao excluir dispositivo:', error);
+      });
   };
+  
 
   /**
    * Função chamada para atualizar os dados do dispositivo editado.
