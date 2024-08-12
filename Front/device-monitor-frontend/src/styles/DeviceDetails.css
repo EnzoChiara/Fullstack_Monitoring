@@ -1,0 +1,80 @@
+.device-details {
+  padding: 20px;
+  background-color: #f4f4f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px; 
+  margin: 0 auto; 
+  margin-top: 100px;
+}
+
+.device-details h1 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #333;
+  text-align: center;
+}
+
+.device-details p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.device-details .button-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.device-details button {
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.device-details .save-button {
+  background-color: #4caf50; /* Verde para salvar */
+}
+
+.device-details .save-button:hover {
+  background-color: #388e3c; /* Verde escuro ao passar o mouse */
+  transform: scale(1.05);
+}
+
+.device-details .cancel-button {
+  background-color: #f44336; /* Vermelho para cancelar */
+}
+
+.device-details .cancel-button:hover {
+  background-color: #cc0000; /* Vermelho escuro ao passar o mouse */
+  transform: scale(1.05);
+}
+
+.device-details .edit-button {
+  background-color: #2196f3; /* Azul para editar */
+}
+
+.device-details .edit-button:hover {
+  background-color: #1976d2; /* Azul escuro ao passar o mouse */
+  transform: scale(1.05);
+}
+
+.device-details .delete-button {
+  background-color: #f44336; /* Vermelho para excluir */
+}
+
+.device-details .delete-button:hover {
+  background-color: #cc0000; /* Vermelho escuro ao passar o mouse */
+  transform: scale(1.05);
+}
+
+.device-details button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

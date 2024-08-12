@@ -1,0 +1,32 @@
+.alerts {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.alerts h1 {
+  margin-bottom: 20px;
+}
+
+.alerts ul {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+  max-width: 800px; 
+}
+
+.alerts li {
+  background: #fff;
+  margin: 10px 0;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.alert-item p {
+  margin: 5px 0;
+}
